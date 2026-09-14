@@ -1,0 +1,2 @@
+import { motion } from 'framer-motion'; import type { ReactNode } from 'react';
+export function Section({id,label,title,children}:{id:string;label:string;title:string;children:ReactNode}){return <section id={id} className="section scroll-mt-20"><motion.div initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.15}} transition={{duration:.5}}><p className="eyebrow">{label}</p><h2 className="heading max-w-3xl">{title}</h2></motion.div><div className="mt-10">{children}</div></section>}

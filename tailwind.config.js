@@ -1,0 +1,1 @@
+/** @type {import('tailwindcss').Config} */ export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{fontFamily:{display:['Space Grotesk','sans-serif'],body:['Inter','sans-serif']},colors:{ink:'#071426',panel:'#0D1B35',electric:'#1687FF',cyan:'#00CFFF',violet:'#A855F7',mint:'#00D4A8',soft:'#AAB6C5'}}},plugins:[]};
