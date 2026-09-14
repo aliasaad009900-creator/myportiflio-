@@ -1,0 +1,2 @@
+import Navbar from './components/Navbar'; import Hero from './components/Hero'; import {About,Academic,Awards,Certificates,Contact,Education,Experience,Expertise,Footer,MentorshipLanguages,Projects,Publications,Research,Stats} from './components/PortfolioSections';
+export default function App(){return <><Navbar/><main><Hero/><Stats/><About/><Research/><Projects/><Publications/><Academic/><Experience/><Education/><MentorshipLanguages/><Expertise/><Awards/><Certificates/><Contact/></main><Footer/></>}
